@@ -290,7 +290,7 @@ class WordPress extends Plugin
 		    $tokenUser = Piwik::getCurrentUserTokenAuth();
 
 		    if (!$tokenRequest || $tokenRequest !== $tokenUser) {
-			    throw new Exception(Piwik::translate('General_ExceptionInvalidToken'));
+			 //   throw new Exception(Piwik::translate('General_ExceptionInvalidToken'));
 		    }
 	    }
 
